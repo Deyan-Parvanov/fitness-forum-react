@@ -1,0 +1,73 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.header-parent {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: black;
+    box-shadow: 0px 14px 36px 0 rgba(0, 0, 0, 2);
+}
+
+.header .logo {
+    line-height: 1;
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+
+.header .logo a {
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-weight: 100;
+}
+
+.bolded {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.header .navigation {
+    margin: 1rem 12rem 0.5rem 0rem;
+}
+
+.header .navigation .nav-items {
+    display: flex;
+    gap: 2rem;
+}
+
+.header .navigation .nav-items .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header .navigation .nav-items .nav-item span {
+   color: #6d6d6d;
+}
+
+.header .navigation .nav-items .nav-item .nav-link {
+    text-decoration: none;
+    color: #6d6d6d;
+    letter-spacing: 1.1px;
+    line-height: 1;
+    font-size: 20px;
+}
+
+.header .navigation .nav-items .nav-item .nav-link.static {
+    color: white;
+}
+
+.header .navigation .nav-items .nav-item .nav-link.active:hover {
+    color: white;
+}

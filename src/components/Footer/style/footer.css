@@ -1,0 +1,17 @@
+.parent-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 80px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 1px 10px;
+}
+
+.footer p i {
+    margin-right: 6px;
+}

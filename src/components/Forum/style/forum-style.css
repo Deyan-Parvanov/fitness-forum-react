@@ -1,0 +1,132 @@
+.discussion-forum {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.topic-info,
+.topic-comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 2rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    width: 1028px;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.topic-image,
+.comment-author {
+    background-color: #f1f2f6;
+    padding: 0.5rem;
+    border-radius: .25rem;
+    width: 274px;
+}
+
+.topic-image {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.topic-info .topic-image img {
+    display: block;
+}
+
+.comments {
+    width: 1028px;
+}
+
+.section-header {
+    display: block;
+    background: #4f5173;
+    color: #e6faff;
+    margin-bottom: 0;
+    margin-top: 16px;
+    width: 1028px;
+    padding: 2px;
+    border: 1px solid rgba(245, 241, 241, 0.125);
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
+
+.add-comment {
+    width: 1028px;
+    padding: 1rem;
+}
+
+.add-comment-header {
+    color: #fff;
+}
+
+.add-comment textarea {
+    width: 996px;
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.add-comment form button,
+.button-edit,
+.button-delete {
+    margin-top: 16px;
+    color: #fff;
+    padding: 10px 34px;
+    background-color: #4f5173;
+    border-color: #fdfffb;
+    border-radius: 0.25rem;
+}
+
+.add-comment form button:hover,
+.button-edit:hover,
+.button-delete:hover {
+    color: #cee8f0;
+    padding: 10px 34px;
+    background-color: #404264;
+    border-color: #000;
+}
+
+.comment-section,
+.topic-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-image {
+    text-align: center;
+}
+
+.author-image img {
+    width: 70px;
+    height: 100px;
+    border-radius: 0.25rem;
+}
+
+.buttons {
+    width: 680px;
+}
+
+.button-edit,
+.button-delete {
+    float: right;
+}
+
+.button-edit {
+    margin-right: 5px;
+}
+
+.comment-content {
+    height: 220px;
+}
+
+.no-comment {
+    font-size: 24px;
+    color: white;
+}
